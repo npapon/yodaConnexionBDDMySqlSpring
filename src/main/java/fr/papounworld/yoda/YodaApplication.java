@@ -30,7 +30,7 @@ public class YodaApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		
-		Employee employee = new Employee();
+		/*Employee employee = new Employee();
 		
 		employee.setFirstname("Nicolas");
 		employee.setLastname("Papon");
@@ -38,6 +38,7 @@ public class YodaApplication implements CommandLineRunner{
 		employee.setPassword("Patapoun123");
 		employeeService.saveEmployee(employee);
 	
+	*/
 		
 		
 	}

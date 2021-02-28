@@ -1,5 +1,7 @@
 package fr.papounworld.yoda;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,7 +9,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class YodaApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void testSimple() {
+		
+		assertThat(1).isEqualTo(1);
 	}
 
 }
