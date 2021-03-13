@@ -11,9 +11,12 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 
+//on charge le contexte spring à chaque test
 @SpringBootTest
+//permet d'instancier des MockMvc
 @AutoConfigureMockMvc
 public class EmployeeControllerTestIntegration {
+	
 	
 	@Autowired
 	private MockMvc mockMvc;

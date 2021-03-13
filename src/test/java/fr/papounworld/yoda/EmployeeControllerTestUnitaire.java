@@ -30,13 +30,7 @@ public class EmployeeControllerTestUnitaire {
     }
     
     
-    @Test
-    public void testGetEmployeeLeslie() throws Exception {
-    	/*  get est la méthode statique de    MockMvcRequestBuilders 
-    	 *  mockMvc.perform( MockMvcRequestBuilders.get("/employees"))*/
-        mockMvc.perform(get("/employeeleslie"))
-            .andExpect(status().isOk());
-    }
+
     
    
 }
